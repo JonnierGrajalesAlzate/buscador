@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lora', serif;
+    background-image: url("https://i.ytimg.com/vi/JOqeirw7v2Q/maxresdefault.jpg" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.user-form{
+    width: 100%;
+    max-width: 700px;
+   
+}
+
+.user-form input{
+    width: 100%;
+    display: block;
+    background-image: url(https://www.neo2.com/wp-content/uploads/2020/01/entrevista-capo-plaza-musica-trap-07.jpg);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: inherit;/*valor que se hereda de otro lado*/
+    box-shadow: 0 5px 10px #45714B, 0 15px 40px #AFC462 /*sombra de la caja*/
+}
+
+.user-form input::placeholder{
+    color: #fff;
+
+}
+
+.user-form input:focus{
+    outline: none;
+
+}
+
